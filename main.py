@@ -27,12 +27,18 @@ def start_timer():
 
     if reps >= 7:
         time = long_break_sec
+        timer_label.config(text="Long Break")
+        timer_label.config(fg=RED)
         print(f"Long Break={time}")
     elif reps % 2 != 0:
         time = short_break_sec
+        timer_label.config(text="Short Break")
+        timer_label.config(fg=PINK)
         print(f"Short Break={time}")
     elif reps % 2 == 0:
         time = work_sec
+        timer_label.config(text="Work")
+        timer_label.config(fg=GREEN)
         print(f"Work={time}")
     reps = reps + 1
     count_down(time)
