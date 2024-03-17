@@ -31,8 +31,8 @@ canvas.grid(column=2, row=2)
 timer_label = Label(text="Timer", font=(FONT_NAME, 50), fg=GREEN, bg=YELLOW)
 timer_label.grid(column=2, row=0)
 
-checkmark = "✓"
-checkmark_label = Label(text=checkmark, fg=GREEN, bg=YELLOW)
+checkmarks = "✔"
+checkmark_label = Label(text=checkmarks, fg=GREEN, bg=YELLOW)
 checkmark_label.grid(column=2, row=4)
 
 start_button = Button(text="Start", bg=YELLOW, highlightbackground=YELLOW)
