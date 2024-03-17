@@ -28,7 +28,7 @@ canvas.create_image(100, 112, image=tomato_img)
 canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
 canvas.grid(column=2, row=2)
 
-timer_label = Label(text="Timer", font=(FONT_NAME, 30, "bold"), fg=GREEN, bg=YELLOW)
+timer_label = Label(text="Timer", font=(FONT_NAME, 50), fg=GREEN, bg=YELLOW)
 timer_label.grid(column=2, row=0)
 
 checkmark = "✓"
